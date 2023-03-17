@@ -8,8 +8,8 @@ public class Point {
     }
 
     public double distance(Point another) {
-        return Math.sqrt((another.x - x) * (another.x - x) +
-                (another.y - y) * (another.y - y));
+        return Math.sqrt((another.getX() - x) * (another.getX() - x) +
+                (another.getY() - y) * (another.getY() - y));
     }
 
     public double distance(int x, int y) {
